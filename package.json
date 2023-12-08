@@ -1,0 +1,32 @@
+{
+  "name": "XiaomiExpress",
+  "version": "1.0.0",
+  "description": "Individual Assignment Nodejs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "build": "node src/index.js"
+  },
+  "author": "Rifqi Taufiqurrohman",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-prettier": "latest",
+    "nodemon": "latest",
+    "prettier": "latest"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.5",
+    "sequelize": "^6.35.1",
+    "sequelize-cli": "^6.6.2"
+  }
+}
